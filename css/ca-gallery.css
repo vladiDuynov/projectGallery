@@ -12,7 +12,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503;
+    color: #03fe10;
 }
 h1,
 h2,
@@ -84,7 +84,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: grey;
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -190,7 +190,7 @@ body {
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url("../img/header-bg.jpg");
+    background-image: url("../img/backgroundCool.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -217,6 +217,7 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    color: #f6bf01;
 }
 @media (min-width: 768px) {
     header.masthead .intro-text {
@@ -242,6 +243,9 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+.services{
+    background-color: black;
 }
 
 #portfolio .portfolio-item {
@@ -753,7 +757,7 @@ fieldset[disabled] .btn-xl:hover {
     background-color: #fed136;
 }
 .btn-xl .badge {
-    color: #fed136;
+    color: #ec24db;
     background-color: white;
 }
 
